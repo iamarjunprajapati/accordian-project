@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question & Answer</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+    <div class="body-container bg-[rgb(234,234,235)] min-h-[100vh] pt-10 w-full flex flex-col items-center">
+        <div class="question bg-white w-[50%] px-4 py-6 mb-5 shadow-lg rounded">
+            <div class="flex justify-between">
+                <p class="text-[green] font-semibold">do you accept all major credit cards?</p>
+                <button class="question-button text-2xl text-[green]" id="1" onclick="toggleAccordian(1)">
+                    <i class="ri-add-box-line add-button"></i>
+                    <i class="ri-checkbox-indeterminate-line hidden subtract-button"></i>
+                </button>
+            </div>
+            <div class="answer border-t border-[black] pt-3 text-[gray] text-sm hidden">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim corporis illum fugiat saepe consequatur? Possimus a libero ex aliquid natus aperiam vel modi deleniti, esse earum quidem tempora minima laudantium.
+            </div>
+        </div>
+        <div class="question bg-white w-[50%] px-4 py-6 mb-5 shadow-lg rounded">
+            <div class="flex justify-between">
+                <p class="text-[green] font-semibold">do you suppport local farmers?</p>
+                <button class="question-button text-2xl text-[green]" id="1" onclick="toggleAccordian(2)">
+                    <i class="ri-add-box-line add-button"></i>
+                    <i class="ri-checkbox-indeterminate-line hidden subtract-button"></i>
+                </button>
+            </div>
+            <div class="answer border-t border-[black] pt-3 text-[gray] text-sm hidden">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim corporis illum fugiat saepe consequatur? Possimus a libero ex aliquid natus aperiam vel modi deleniti, esse earum quidem tempora minima laudantium.
+            </div>
+        </div>
+        <div class="question bg-white w-[50%] px-4 py-6 mb-5 shadow-lg rounded">
+            <div class="flex justify-between">
+                <p class="text-[green] font-semibold">do you use organic ingredients?</p>
+                <button class="question-button text-2xl text-[green]" id="1" onclick="toggleAccordian(3)">
+                    <i class="ri-add-box-line add-button"></i>
+                    <i class="ri-checkbox-indeterminate-line hidden subtract-button"></i>
+                </button>
+            </div>
+            <div class="answer border-t border-[black] pt-3 text-[gray] text-sm hidden">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim corporis illum fugiat saepe consequatur? Possimus a libero ex aliquid natus aperiam vel modi deleniti, esse earum quidem tempora minima laudantium.
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
